@@ -6,8 +6,8 @@ class Vehicle {
     Integer year
 
     String name
-    String make
-    String model
+    Model model
+    Make make
 
     static constraints = {
         year min: 1900
